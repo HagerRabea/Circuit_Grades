@@ -72,12 +72,12 @@ button:hover {
   font-size: 25px;
   color: #72b6ff; /* a light bluish color */
   font-weight: bold;
-  text-shadow: 
+  /* text-shadow: 
     0 0 5px #72b6ff,
     0 0 10px #72b6ff,
     0 0 20px #72b6ff,
     0 0 40px #2196f3,
-    0 0 80px #2196f3;
+    0 0 80px #2196f3; */
   transition: text-shadow 0.3s ease;
 }
 
