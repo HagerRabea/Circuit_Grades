@@ -64,6 +64,10 @@ button:hover {
     text-align: left;
  
 }
+#gradeDisplay ul{
+    border:1px solid white;
+    padding : 5px;
+}
 #gradeDisplay li {
   font-size: 25px;
   color: #72b6ff; /* a light bluish color */
