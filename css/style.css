@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+
+}
+li{
+    list-style: none;
+    color: rgb(22, 138, 247);
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/rm373batch15-element-02.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container {
+    width: 40%;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    border: 1px solid white;
+    padding: 50px 20px;
+    box-shadow: 3px #ccc;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    /* background-color: rgb(76, 176, 0); */
+    background-color: rgb(123, 41, 118);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+      background-color: rgb(123, 41, 118);
+}
+
+#gradeDisplay {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+ 
+}
+#gradeDisplay li {
+  font-size: 25px;
+  color: #72b6ff; /* a light bluish color */
+  font-weight: bold;
+  text-shadow: 
+    0 0 5px #72b6ff,
+    0 0 10px #72b6ff,
+    0 0 20px #72b6ff,
+    0 0 40px #2196f3,
+    0 0 80px #2196f3;
+  transition: text-shadow 0.3s ease;
+}
+
+/* Optional hover glow effect */
+#gradeDisplay li:hover {
+  text-shadow: 
+    0 0 10px #72b6ff,
+    0 0 20px #72b6ff,
+    0 0 40px #2196f3,
+    0 0 80px #2196f3,
+    0 0 160px #2196f3;
+}
+
+ /* Styles for tablets */
+ @media only screen and (max-width: 768px) {
+    .container {
+        width: 60%;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        border-radius: 40px;
+        border: 1px solid white;
+        padding: 50px 20px;
+        box-shadow: 3px #ccc;
+    }
+    input[type="text"] {
+        padding: 8px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  /* Styles for phones */
+  @media only screen and (max-width: 480px) {
+    .container {
+        width: 80%;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        border-radius: 40px;
+        border: 1px solid white;
+        padding: 50px 20px;
+        box-shadow: 3px #ccc;
+    }
+    input[type="text"] {
+        padding: 8px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+  }
